@@ -1,0 +1,157 @@
+:root{
+    --title: "Pacifico", cursive;
+    --aesthetic: "Grey Qo", cursive;;
+    --handwritting: "Edu VIC WA NT Beginner", cursive;
+}
+
+body{
+    margin: 0;
+    background: rgb(255,122,207);
+    background: linear-gradient(90deg, rgb(255, 122, 206) 0%, rgba(255,228,245,1) 49%, rgba(255,122,207,1) 100%);
+}
+
+/* ---------- section 1 ---------- */
+.s1bg{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.s1image1 {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    max-height: 120vh;
+}
+
+.s1txt {
+    left: 0;
+    right: 0;
+    margin: 2.3rem auto;
+    position: absolute;
+    max-width: 58vh;
+    top: 0vh;
+    background-color: rgba(0, 0, 0, 0.600);
+    border-radius: 17px;
+    padding: 0 2.5vh;
+}
+
+.s1title {
+    font-family: var(--title);
+    color: black;
+    text-shadow: 
+    -1.4px -1.4px 0 cyan,   /* Bayangan ke kiri-atas */
+    1.4px -1.4px 0 cyan,    /* Bayangan ke kanan-atas */
+    -1.4px 1.4px 0 cyan,    /* Bayangan ke kiri-bawah */
+    1.4px 1.4px 0 cyan;     /* Bayangan ke kanan-bawah */
+    font-size: 5vh;
+    text-align: center;
+    margin: 1.5vh 0 0 0;
+}
+
+.s1caption {
+    color: rgb(255, 241, 243);
+    font-family: var(--handwritting);
+    font-size: 2.3vh;
+    margin: 0 0 1vh 0;
+}
+
+.s1ily {
+    color: cyan;
+    font-family: var(--title);
+    font-size: 2.5vh;
+    text-align: center;
+    margin: 0;
+}
+
+.s1fa {
+    font-family: var(--aesthetic);
+    color: pink;
+    text-align: right;
+    font-size: 4.5vh;
+    margin: 0;
+}
+
+.s1bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s1image2, .s1image3 {
+    width: 25vh;
+    height: 25vh;
+}
+
+
+/* ---------- section 2 ---------- */
+.s2, .s3, .s3flex {
+    display: flex;
+    justify-content: center;
+}
+
+.s2container, .s3container {
+    max-width: 68vh;
+}
+
+.s2opening {
+    text-align: center;
+    font-family: var(--handwritting);
+    font-size: 3vh;
+    margin-bottom: 0;
+}
+
+.s2title {
+    margin: 1vh 0 0 0;
+    text-align: center;
+    font-family: var(--title);
+    font-size: 4vh;
+}
+
+.s2desk, .s3desk {
+    font-family: var(--handwritting);
+    margin: 0 0 1vh 0;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+/* ---------- section 3 ---------- */
+.s3title {
+    text-align: center;
+    font-family: var(--title);
+    color: rgb(255, 145, 218);
+    text-shadow: 
+    -1.7px -1.7px 0 rgb(0, 0, 0),   /* Bayangan ke kiri-atas */
+    1.7px -1.7px 0 rgb(0, 0, 0),    /* Bayangan ke kanan-atas */
+    -1.7px 1.7px 0 rgb(0, 0, 0),    /* Bayangan ke kiri-bawah */
+    1.7px 1.7px 0 rgb(0, 0, 0);     /* Bayangan ke kanan-bawah */
+    font-size: 3rem;
+}
+
+.s3dflex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s3box1, .s3box2 {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+}
+
+.s3img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 1.5rem auto;
+    width: 12rem;
+    height: 12rem;
+}
+
+.s3bingkai {
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
